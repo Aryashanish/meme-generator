@@ -1,0 +1,52 @@
+.App h1{
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-card{
+  /* border: 2px solid red; */
+  width: 200px;
+  padding: 10px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn{
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 8px 15px;
+  border-radius: 12px;
+  margin: 5px;
+  background-color: #3B71CA;
+}
+
+.success{
+  background-color: #14A44D;
+}
+
+.edit-img{
+  display: flex;
+  width: 500px;
+  margin: 0px 5px;
+}
+
+.edit-img img{
+  width: 300px;
+}
+
+.editpage h4{
+  margin-left: 15px;
+}
